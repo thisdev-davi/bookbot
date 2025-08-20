@@ -25,4 +25,5 @@ def main():
         print(l["char"] + ": " + str(l["num"]))
     print("============= END ===============")
     
-main()
+if __name__ == "__main__":
+    main()
